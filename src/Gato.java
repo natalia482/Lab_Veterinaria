@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 //extends Animal. Hereda el nombre, edad y nombre del dueño
@@ -5,7 +6,7 @@ import java.util.List;
 
 public class Gato extends  Animal implements Vacunable, Asegurable {
     private boolean esEsterilizado;
-    private List<String> listaVacunas;
+    private List<String> listaVacunas = new ArrayList<>();
 
     public Gato(String nombre, int edad, String nombreDueno, boolean esEsterilizado) {
         super(nombre, edad, nombreDueno);

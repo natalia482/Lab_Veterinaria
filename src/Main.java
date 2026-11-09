@@ -1,5 +1,5 @@
 void main() {
-    System.out.println("===============================================================");
+    System.out.println("============ESPECIES Y SUS DUEÑOS===============");
     // Arreglo de tipo Animal[]
     Animal[] Especies = {
             new Perro("Rocky", 4, "Natalia", "Husky"),
@@ -13,7 +13,7 @@ void main() {
     }
 
 
-    System.out.println("\n=== vACUNACIÓN===");
+    System.out.println("\n=== VACUNACIÓN===");
     Perro miPerro = new Perro("Rocco", 3, "Mateo", "Bulldog");
     Gato miGato = new Gato("Luna", 5, "Sofia", false);
 
@@ -26,7 +26,7 @@ void main() {
     System.out.println("Vacunas de " + miGato.nombre + ": " + miGato.getVacunasAplicadas());
 
 
-    System.out.println("\n=== 3. PRUEBA DE PÓLIZAS CON ASEGURABLE[] ===");
+    System.out.println("\n=== PRUEBA DE PÓLIZAS CON ASEGURABLE ===");
     Clinica vetCare = new Clinica("VetCare Central", "Calle Principal #123");
 
     // Arreglo asegurable
